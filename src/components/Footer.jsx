@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div className="container text-center py-5" style={{maxWidth: "40%"}}>
                     <span className="fw-light">We accept the following payments</span>
-                    <div class="d-flex justify-content-around mt-5">
+                    <div className="d-flex justify-content-around mt-5">
                         <img src={bhim} alt="bhim" style={{maxWidth: "100px", maxHeight: "35px"}} />
                         <img src={upi} alt="bhim" style={{maxWidth: "100px", maxHeight: "35px"}} />
                         <img src={paypal} alt="paypal" style={{maxWidth: "100px", maxHeight: "35px"}} />

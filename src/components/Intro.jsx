@@ -9,7 +9,7 @@ const Intro = () => {
             <div style={{position: "absolute", top: "30%", left: "35%", transform: "translate(-50%, -50%)", color: "white", width: "30%"}}>
                 <h1 className="display-4 fw-bold" style={{letterSpacing: "4px"}}>Sustainability In Your Pocket</h1>
                 <h4 className="fw-light my-5">Building a future that's exciting</h4>
-                <button className='btn btn-primary px-4' style={{borderRadius: '40px', backgroundColor: "rgb(69, 221, 245)"}}>Explore</button>
+                <button className='btn px-4' style={{borderRadius: '40px', backgroundColor: "rgb(69, 221, 245)"}}>Explore</button>
             </div>
             <div style={{position: "absolute", top: "30%", left: "50%", transform: "translate(-50%, -50%)", color: "white", width: "30%"}}>
                 <img src={world} alt="World" />

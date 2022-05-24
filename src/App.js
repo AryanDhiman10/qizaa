@@ -4,6 +4,7 @@ import Offerings from "./components/Offerings";
 import Shop from './components/Shop'
 import SustainableBrands from "./components/SustainableBrands";
 import Footer from "./components/Footer";
+import JoinUs from "./components/JoinUs";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Offerings/>
       <Shop/>
       <SustainableBrands/>
+      <JoinUs/>
       <Footer/>
     </div>
   );
